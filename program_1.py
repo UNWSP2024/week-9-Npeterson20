@@ -3,6 +3,7 @@
 # (Use the included example file names.txt) and exists on the computer's disk.
 # Write a program that displays the number of names that are stored in the file.
 
+
 def count_names_in_file():
     try:
         with open("names.txt", "r") as file:
